@@ -1,0 +1,90 @@
+body{
+   padding-top:70px;
+}
+
+/* main navbar */
+.navbar{
+    min-height:70px;
+}
+
+/* active link */
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+ .navbar-inverse .navbar-nav>.active>a:hover{
+    background-color:#d32f2f;;
+ }
+ /* navbar link */
+ .navbar-inverse .navbar-nav>li>a{
+    color:#BBB;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:16px;
+ }
+ /* brand name */
+ .navbar-inverse .navbar-brand{
+    color:#BBB;
+    font-size:30px;
+    line-height:40px;
+ }
+ .navbar-inverse .navbar-brand span{
+   color:red;
+ }
+ /* navbar toggle */
+ .navbar-toggle{
+    margin-top:18px;
+ }
+ /* start skills section */
+ .skills{
+   background:url("images/mountain.jpeg") no-repeat center center fixed;
+   min-height:600px;
+   margin-bottom:30px;
+ }
+.skills .my-skills{
+   background-color:rgba(2,2,2,0.7);
+   min-height:600px;
+   color:#fff;
+   padding-top:40px;
+   padding-bottom:40px;
+}
+.skills h1 span{
+   color:orangered;
+}
+.skills h2{
+   color:orangered;
+}
+.skills .inside{
+   background-color:rgba(3,3,3,0.2);
+}
+.carousel{
+   margin-bottom:20px;
+}
+.carousel-indicators{
+   bottom:0;
+}
+.footer{
+   background:#333;
+   color:#aaa;
+   padding-top:20px;
+   padding-bottom:20px;
+}
+.footer h3{
+  color:#d32f2f;
+  letter-spacing:2px;
+  font-size:30px;
+}
+.footer .social-list{
+   overflow:hidden;
+   margin:20px 0 10px;
+}
+.footer .social-list li{
+   float:left;
+   margin-right:10px;
+   opacity:0.7;
+}
+.footer .social-list li:hover{
+   opacity:1;
+}
+.footer .social-list li{
+   margin-right:30px;
+}
+
